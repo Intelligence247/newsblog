@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    @apply p-0 m-0 box-border text-[16px]
+}
+
+.body{
+    @apply w-screen h-screen overflow-x-hidden px-[10rem] py-[5rem]
+}
