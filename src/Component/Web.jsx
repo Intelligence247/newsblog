@@ -3,12 +3,12 @@ import Hydro from './Hydro'
 
 const Web = () => {
   return (
-    <main className='w-full flex justify-between mt-[2rem]'>
-    <div className="web3 text-black w-[64%] flex flex-col gap-12">
+    <main className=''>
+    <div className="web3">
     <img src="/media/image-web-3-desktop.jpg" alt="" />
-    <div className="bright flex justify-between">
-      <p className='text-[3rem] font-[700] leading-[2.7rem] w-[48%]'>The Bright Future of Web 3.0?</p>
-      <section className='w-[50%] '>
+    <div className="bright">
+      <p className='text-[3rem] font-[700] leading-[2.7rem] lg:w-[48%]'>The Bright Future of Web 3.0?</p>
+      <section className='lg:w-[50%]'>
         <p>We dive into the next evolution of the web that claims to put the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
         <button className='px-[1rem] py-[.3rem] bg-red-400 mt-[1.7rem] text-white tracking-[.4rem]'>READ MORE</button>
       </section>
@@ -16,7 +16,7 @@ const Web = () => {
     </div>
     
     
-    <div className="hydrogen w-[34%] h-[auto] p-[1.5rem] bg-black flex flex-col gap-[1.5rem]">
+    <div className="hydrogen lg:w-[34%] h-[auto] p-[1.5rem] bg-black flex flex-col gap-[1.5rem]">
         <h1 className='text-[#eeaa4f] text-[2.5rem]'>New</h1>
         <Hydro
         title={'Hydrogen VS Electric Cars'}

@@ -21,7 +21,7 @@ const Gamingwrapper = () => {
     }
   ]
   return (
-    <div className='flex justify-between items-center gap-4 mt-[2rem]'>
+    <div className='flex lg:flex-row flex-col justify-between items-center gap-4 mt-[2rem]'>
 
       {
         mapArr.map((m) => (

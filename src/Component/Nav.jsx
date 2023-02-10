@@ -6,7 +6,8 @@ const Nav = () => {
     <div className="icon">
       <img src="/media/logo.svg" alt="" />
     </div>
-    <div className="nav flex gap-[3rem]" >
+    <img src="/media/icon-menu.svg" className='lg:hidden block' alt="" />
+    <div className="nav" >
       <p>Home</p>
       <p>New</p>
       <p>Popular</p>

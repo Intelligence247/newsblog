@@ -1,5 +1,14 @@
 @tailwind base;
 @tailwind components;
+:root{
+    @apply text-[16px]
+} 
+@media (max-width:640px) {
+        :root{
+        @apply text-[12px]
+    }
+    
+}
 @tailwind utilities;
 
 *{
@@ -7,5 +16,26 @@
 }
 
 .body{
-    @apply w-screen h-screen overflow-x-hidden px-[10rem] py-[5rem]
+    @apply w-screen h-screen overflow-x-hidden lg:px-[10rem] lg:py-[5rem] py-[2rem] px-[1rem]
+}
+header .nav{
+    @apply hidden lg:block lg:flex lg:gap-[3rem] 
+}
+main{
+    @apply w-full flex justify-between mt-[2rem] lg:flex-row flex-col lg:gap-0 gap-8
+}
+.web3{
+    @apply text-black lg:w-[64%] flex flex-col gap-12
+}
+.bright{
+    @apply flex lg:flex-row flex-col justify-between lg:gap-0 gap-8
+}
+::-webkit-scrollbar{
+    width: 6px;
+    background-color: #cac7ce;
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: #eeaa4f;
+    border-radius: 50px;
 }
