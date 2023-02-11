@@ -5,7 +5,9 @@ const Web = () => {
   return (
     <main className=''>
     <div className="web3">
-    <img src="/media/image-web-3-desktop.jpg" alt="" />
+    <img src="/media/image-web-3-desktop.jpg" className='lg:block hidden' alt="" />
+    <img src="/media/image-web-3-mobile.jpg" className='blobk lg:hidden' alt="" />
+    
     <div className="bright">
       <p className='text-[3rem] font-[700] leading-[2.7rem] lg:w-[48%]'>The Bright Future of Web 3.0?</p>
       <section className='lg:w-[50%]'>

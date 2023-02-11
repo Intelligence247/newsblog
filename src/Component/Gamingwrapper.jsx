@@ -24,8 +24,8 @@ const Gamingwrapper = () => {
     <div className='flex lg:flex-row flex-col justify-between items-center gap-4 mt-[2rem]'>
 
       {
-        mapArr.map((m) => (
-          <Gaming
+        mapArr.map((m, index) => (
+          <Gaming key={`${m}-${index}`}
             img={m.img}
             num={m.num}
             desc1={m.desc1}

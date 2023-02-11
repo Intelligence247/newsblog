@@ -6,8 +6,14 @@
 @media (max-width:640px) {
         :root{
         @apply text-[12px]
+
     }
-    
+   header .nav{
+    @apply bg-[yellow] h-full absolute right-0 top-0 flex flex-col gap-8 pr-[7rem] pt-[5rem] pl-[2rem] z-[0] right-0 transition-all
+   } 
+   header .nav.active{
+    @apply right-full
+   }
 }
 @tailwind utilities;
 
@@ -19,7 +25,7 @@
     @apply w-screen h-screen overflow-x-hidden lg:px-[10rem] lg:py-[5rem] py-[2rem] px-[1rem]
 }
 header .nav{
-    @apply hidden lg:block lg:flex lg:gap-[3rem] 
+    @apply  lg:block lg:flex lg:gap-[3rem] 
 }
 main{
     @apply w-full flex justify-between mt-[2rem] lg:flex-row flex-col lg:gap-0 gap-8
