@@ -8,11 +8,13 @@ const handleshownav=()=>{
 }
   return (
     <header className='flex justify-between items-center'>
+      <div className="twoimages flex justify-between w-full items-center fixed z-[1] pr-8 bg-white mt-[-.6rem] py-4 pt-8">
     <div className="icon">
       <img src="/media/logo.svg" alt="" />
     </div>
     <img src={menu?'/media/icon-menu-close.svg':'/media/icon-menu.svg'} className='lg:hidden block  z-[1]' alt="" onClick={handleshownav}/>
-    <div className={`nav ${menu && 'active'}`} >
+    </div>
+    <div className={`nav ${menu && 'active'}`}>
       <p>Home</p>
       <p>New</p>
       <p>Popular</p>
@@ -24,5 +26,3 @@ const handleshownav=()=>{
 }
 
 export default Nav
-
-// https://www.codevertiser.com/reactjs-responsive-navbar/#:~:text=You%20can%20make%20the%20Navbar,can%20use%20a%20useMediaQuery%20hook.
