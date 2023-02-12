@@ -14,5 +14,8 @@
    header .nav.active{
     @apply   w-max pr-[7rem] pt-[5rem] pl-[2rem]
    }
+   .twoimages{
+   @apply flex justify-between w-full items-center fixed z-[1] pr-8 bg-white mt-[-.6rem] py-4 pt-8
+}
 }
 @tailwind utilities;

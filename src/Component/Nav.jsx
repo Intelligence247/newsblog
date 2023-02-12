@@ -8,7 +8,7 @@ const handleshownav=()=>{
 }
   return (
     <header className='flex justify-between items-center'>
-      <div className="twoimages flex justify-between w-full items-center fixed z-[1] pr-8 bg-white mt-[-.6rem] py-4 pt-8">
+      <div className="twoimages">
     <div className="icon">
       <img src="/media/logo.svg" alt="" />
     </div>
