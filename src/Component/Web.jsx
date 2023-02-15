@@ -18,7 +18,7 @@ const Web = () => {
     </div>
     
     
-    <div className="hydrogen lg:w-[34%] h-[auto] p-[1.5rem] bg-black flex flex-col gap-[1.5rem]">
+    <div className="hydrogen lg:w-[34%] h-[auto] p-[1.5rem] bg-black flex flex-col lg:gap-[1.5rem] gap-[2.5rem]">
         <h1 className='text-[#eeaa4f] text-[2.5rem]'>New</h1>
         <Hydro
         title={'Hydrogen VS Electric Cars'}

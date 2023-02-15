@@ -12,7 +12,7 @@ const handleshownav=()=>{
     <div className="icon">
       <img src="/media/logo.svg" alt="" />
     </div>
-    <img src={menu?'/media/icon-menu-close.svg':'/media/icon-menu.svg'} className='lg:hidden block  z-[1]' alt="" onClick={handleshownav}/>
+    <img src={menu ? '/media/icon-menu-close.svg':'/media/icon-menu.svg'} className='lg:hidden block  z-[1]' alt="" onClick={handleshownav}/>
     </div>
     <div className={`nav ${menu && 'active'}`}>
       <p>Home</p>
