@@ -9,7 +9,7 @@
 
     }
    header .nav{
-    @apply bg-white h-full absolute right-0 top-0 flex flex-col gap-8  z-[0] transition-all w-0 p-0 overflow-x-hidden
+    @apply bg-white h-screen fixed right-0 top-0 flex flex-col gap-8  z-[0] transition-all w-0 p-0 overflow-x-hidden
    } 
    header .nav.active{
     @apply   w-max pr-[7rem] pt-[5rem] pl-[2rem]
