@@ -1,5 +1,5 @@
 import { useState } from "react"
-// import React {useState} from 'react'
+import React from "react"
 
 const Nav = () => {
   const [menu, setMenu] = useState(false)
@@ -21,6 +21,7 @@ const handleshownav=()=>{
       <p>Trending</p>
       <p>Categories</p>
     </div>
+    <div className={`nav2 ${!menu && 'actnav2'}`}></div>
   </header>
   )
 }

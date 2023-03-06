@@ -28,3 +28,6 @@ main{
 ::-webkit-scrollbar-thumb{
     @apply bg-[#eeaa4f] rounded-[50px]
 }
+.nav2{
+    @apply hidden
+}
